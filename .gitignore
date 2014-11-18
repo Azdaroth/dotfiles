@@ -25,5 +25,10 @@
 !.bash_profile
 !.ackrc
 !.zsh
-!.vim
+!.zsh/
+!.zsh/completions
+!.zsh/completions/*
+!.zsh/functions
+!.zsh/functions/*
+!.vim/*
 !.agignore

@@ -17,7 +17,7 @@
 !.gitignore
 !.git-completion.bash
 !.githelpers
-!.gitcofig
+!.gitconfig
 !.gitattributes
 !.gemrc
 !.ctags

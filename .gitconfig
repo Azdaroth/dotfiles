@@ -1,0 +1,31 @@
+[user]
+	name = Karol Galanciak
+	email = karol.galanciak@gmail.com
+[alias]
+    st = status
+    ci = commit
+    di = diff
+    dc = diff --cached
+    co = checkout
+    aa = add --all
+    pom = push origin master
+    b = branch
+    bc = checkout -b
+    pull = pull origin master
+    cam = commit -am
+    lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+    lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
+    lg = !"git lg1"
+    lol = log --pretty=oneline --abbrev-commit --graph --decorate
+    change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ $`echo $VAR` = \\\"$OLD\\\" ]]; then export $VAR=\\\"$NEW\\\"; fi\" $@; }; f"
+
+[mergetool]
+    keepBackup = true
+[diff "localizablestrings"]
+    textconv = "iconv -f utf-16 -t utf-8"
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+  status = auto
+  ui = true

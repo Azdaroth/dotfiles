@@ -1,0 +1,6 @@
+.powenv
+*.DS_Store
+.idea/
+
+tags
+!tags

@@ -15,6 +15,8 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:
 
 export ACK_COLOR_MATCH='red'
 
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # moar colors
 alias grep="grep --color"
 alias ls="ls -G"

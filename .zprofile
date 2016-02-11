@@ -1,6 +1,7 @@
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH="$PATH:/usr/local/lib/node_modules/karma/bin"
 export QWANDRY_EDITOR=subl
+export PATH="$PATH:/path/to/elixir/bin"
 
 #bundler
 alias beg='bundle exec guard'

@@ -45,3 +45,9 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+export NVM_DIR="/Users/azdaroth/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

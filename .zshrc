@@ -8,8 +8,8 @@ prompt grb
 autoload -U compinit
 compinit
 
-autoload -U auto_bundle_exec
-auto_bundle_exec
+# autoload -U auto_bundle_exec
+# auto_bundle_exec
 # enable case insensitive completions
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
@@ -51,3 +51,5 @@ export LC_ALL=en_US.UTF-8
 
 export NVM_DIR="/Users/azdaroth/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.yarn/bin:$PATH"

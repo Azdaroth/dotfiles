@@ -60,3 +60,8 @@ fi
 # export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 source ~/.profile
+# added by Anaconda3 4.2.0 installer
+export PATH="/Users/azdaroth/anaconda/bin:$PATH"
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/Users/azdaroth/anaconda3/bin:$PATH"

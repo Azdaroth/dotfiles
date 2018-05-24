@@ -32,3 +32,4 @@
 !.zsh/functions/*
 !.vim/*
 !.agignore
+!Brewfile

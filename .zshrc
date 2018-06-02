@@ -38,9 +38,6 @@ setopt share_history # share command history data
 
 export PATH=$HOME/bin:$PATH
 
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
@@ -54,3 +51,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

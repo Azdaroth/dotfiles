@@ -1,10 +1,8 @@
 export PATH=$HOME/bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH="$PATH:/usr/local/lib/node_modules/karma/bin"
 export QWANDRY_EDITOR=subl
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 #bundler
 alias beg='bundle exec guard'
@@ -65,3 +63,5 @@ export PATH="/Users/azdaroth/anaconda/bin:$PATH"
 
 # added by Anaconda3 5.0.1 installer
 export PATH="/Users/azdaroth/anaconda3/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

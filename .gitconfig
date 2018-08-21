@@ -1,6 +1,7 @@
 [user]
 	name = Karol Galanciak
 	email = karol.galanciak@gmail.com
+	signingkey = 08BD1D946BBF556A
 [alias]
     st = status
     ci = commit
@@ -29,3 +30,7 @@
 	interactive = auto
   status = auto
   ui = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg

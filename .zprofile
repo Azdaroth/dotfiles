@@ -47,3 +47,5 @@ alias gcam='git commit -am'
 
 alias reload-rs='touch tmp/restart.txt'
 
+
+export PATH="$HOME/.cargo/bin:$PATH"

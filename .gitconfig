@@ -34,3 +34,5 @@
 	gpgsign = true
 [gpg]
 	program = gpg
+[core]
+	excludesfile = /Users/fleshgrinder/.gitignore_global

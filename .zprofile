@@ -47,5 +47,7 @@ alias gcam='git commit -am'
 
 alias reload-rs='touch tmp/restart.txt'
 
+alias deis-deploy-all='git co master; git pull --rebase origin master; git push deis master; git push deis-production master'
+
 
 export PATH="$HOME/.cargo/bin:$PATH"

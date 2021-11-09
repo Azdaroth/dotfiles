@@ -48,6 +48,8 @@ alias gcam='git commit -am'
 
 alias reload-rs='touch tmp/restart.txt'
 
+alias deis-deploy-all='git co master; git pull --rebase origin master; git push deis master; git push deis-production master'
+
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
@@ -63,6 +65,8 @@ export PATH="/Users/azdaroth/anaconda/bin:$PATH"
 
 # added by Anaconda3 5.0.1 installer
 export PATH="/Users/azdaroth/anaconda3/bin:$PATH"
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 

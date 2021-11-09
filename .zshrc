@@ -54,3 +54,10 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="$PATH:$HOME/Library/Python/3.7/bin"
+
+export SPARK_HOME=/usr/local/Cellar/apache-spark/3.0.1/libexec
+export PATH="$SPARK_HOME/bin/:$PATH"
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES

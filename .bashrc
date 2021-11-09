@@ -43,6 +43,8 @@ alias gcam='git commit -am'
 
 alias reload-rs='touch tmp/restart.txt'
 
+alias deis-deploy-all='git co master; git pull --rebase origin master; git push deis master; git push deis-production master'
+
 source ~/.git-completion.bash
 
 export WORKON_HOME=$HOME/.virtualenvs
@@ -56,3 +58,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+export SPARK_HOME=/usr/local/Cellar/apache-spark/3.0.1/libexec
+export PATH="$SPARK_HOME/bin/:$PATH"

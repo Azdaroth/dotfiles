@@ -51,3 +51,7 @@ alias deis-deploy-all='git co master; git pull --rebase origin master; git push 
 
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/usr/local/bin"

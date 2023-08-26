@@ -71,3 +71,8 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+PATH=$PATH:/opt/metasploit-framework/bin
+export PATH=$PATH:/opt/metasploit-framework/bin

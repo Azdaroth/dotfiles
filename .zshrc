@@ -61,3 +61,8 @@ export SPARK_HOME=/usr/local/Cellar/apache-spark/3.0.1/libexec
 export PATH="$SPARK_HOME/bin/:$PATH"
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+
+plugins=(main_infra)

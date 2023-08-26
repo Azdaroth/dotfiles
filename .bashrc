@@ -47,8 +47,7 @@ alias deis-deploy-all='git co master; git pull --rebase origin master; git push 
 
 source ~/.git-completion.bash
 
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 alias psql='psql -eL /tmp/psql.log'
 
@@ -61,3 +60,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 export SPARK_HOME=/usr/local/Cellar/apache-spark/3.0.1/libexec
 export PATH="$SPARK_HOME/bin/:$PATH"
+
+export WORKON_HOME=$HOME/.virtualenvs
+# source /usr/local/bin/virtualenvwrapper.sh

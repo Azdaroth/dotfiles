@@ -86,3 +86,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+# Added by Windsurf
+export PATH="/Users/fleshgrinder/.codeium/windsurf/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
